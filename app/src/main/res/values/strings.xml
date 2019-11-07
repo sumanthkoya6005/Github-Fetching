@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Github Listing</string>
+    <string name="title">Github</string>
+    <string name="internet_check">Please Check Your Internet and Try Again</string>
+    <string name="exit">Exit</string>
+    <string name="alert_exit">Do You Want To Exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="user_title">User: %1$s </string>
+    <string name="user_email">Email: %1$s </string>
+    <string name="location">Location: %1$s </string>
+    <string name="user_fork">Forks : %1$s </string>
+    <string name="user_stars">Stars: %1$s </string>
+    <string name="date">Joined Date: %1$s </string>
+    <string name="followers">%1$s  Followers   </string>
+    <string name="following">%1$s Following </string>
+    <string name="bio"> This is %1$s  Bio </string>
+
+
+</resources>

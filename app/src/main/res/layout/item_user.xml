@@ -1,0 +1,49 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/blue_rectangle">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_people"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_width"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/label_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_people"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/label_repo_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_people"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size"
+                tools:ignore="RtlCompat" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+
+    <dimen name="header_text_18">18sp</dimen>
+    <dimen name="toolbar_height">20dp</dimen>
+    <dimen name="toolbar_max_height">50dp</dimen>
+    <dimen name="toolbar_top">30dp</dimen>
+    <dimen name="image_width">25dp</dimen>
+    <dimen name="text_size">17sp</dimen>
+    <dimen name="margin_start">14dp</dimen>
+    <dimen name="padding_card">16dp</dimen>
+    <dimen name="collapsing_toolbar_heightt">300dp</dimen>
+    <dimen name="gravity_bottom">70dp</dimen>
+    <dimen name="circle_width">150dp</dimen>
+    <dimen name="scroll_view_top">69dp</dimen>
+    <dimen name="cvard_elevation">4dp</dimen>
+</resources>
